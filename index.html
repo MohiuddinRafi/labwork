@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>JavaScript demo</title>
+	  <!-- add the link tag to the style.css which will be in a folder -->
+
+	  <link rel="stylesheet" href="formstyle.css">
+	  <!-- used to embed client side script/JS -->
+	  <script type="text/javascript">
+		//comment in JS
+		//add 3 examples of javascript
+
+			var result = 2+5;
+			var result1 = 10*3;
+			var result2 = 20%4;
+			var result3 = 15/5;
+			alert ("The results are " +result+ ",  " + result1+ ", "+result2+ ", " +result3);
+			
+			//var num = 1;
+			//num++ //increments by 1
+			//alert ("num++ has the value " +num);
+			//num-- //increments by 1
+			//alert ("num-- has the value " +num);
+			
+			
+			//declare the vars num1 and num2
+			//prompt the user to give data
+			//set up the if statement
+			var num1;
+			num1= parseInt(prompt("Enter num1"));
+			
+			var num2 = parseInt (prompt("Enter num2"));
+			
+			
+			if (num1 > num2) {
+				//code to execute if true
+				document.write("num1 is bigger..");
+			}else{
+				//otherwise do this
+				document.write("num2 is bigger or = num1");
+			}
+			
+			var name; //declare veriable
+			name=prompt ("Enter name"); //assign value from the prompt box
+			alert("Hey " + name);
+			
+			var name; //declare name veriable
+			var venue; // declare venue var
+			name = prompt ("Whats your college name"); //assign data to var
+			venue = prompt ("Where are you studying ?"); //assign data to var
+			alert ("Great " +name+ " have fun in " +venue); //make use of var
+			
+			var num1 = parseInt (prompt ("Enter number 1")); 
+			var num2 = parseInt (prompt ("Enter number 2"));
+			alert ("when added " + (num1+num2));
+			
+			
+			//declare the veriable age and speed
+			//use prompt to get data from user
+			//set up the if statement
+			
+			var age;
+			age= parseInt(prompt("Enter age"));
+			
+			var speed;
+			speed= parseInt(prompt("Enter speed"));
+			//1 or other
+			if((speed > 60) && (age < 18)) {
+			  
+			  document.write("4 penalty points...");
+			  
+			}else if( (age < 18) || (speed > 60)){
+				document.write("2 star points");
+				
+			}
+			//declare the veriable number between 1 to 10
+			//use the prompt to get the data
+			//set up the if statement
+			
+			var secretnum = 9;
+			var usernum = parseInt (prompt("Enter number between 1 to 10"));
+			if (usernum==9) {
+			  document.write ("congrats!!");
+			}else {
+				document.write ("Better luck next time");
+				
+			}
+			
+	</script>
+	  
+
+	</head>
+	<body>
+		<h1>Graded lab exercise</h1>
+		<p>add 3 examples of javascript</p>
+		<p>create a repo in github and add your project when finished</p>
+		<p>post just the link to the github repo in OneNote</p>
+		<p>you link should look like this https://github/username/repoName.git </p>
+	</body>
+</html>
